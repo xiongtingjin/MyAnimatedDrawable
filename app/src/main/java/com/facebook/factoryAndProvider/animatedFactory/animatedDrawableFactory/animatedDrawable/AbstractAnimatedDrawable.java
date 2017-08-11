@@ -611,7 +611,7 @@ public abstract class AbstractAnimatedDrawable extends Drawable implements Anima
         return mLoopCount;
     }
 
-    protected AnimatedDrawableCachingBackend getAnimatedDrawableBackend() {
+    public AnimatedDrawableCachingBackend getAnimatedDrawableBackend() {
         return mAnimatedDrawableBackend;
     }
 
